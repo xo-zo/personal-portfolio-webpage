@@ -1,6 +1,21 @@
 body {
-  background-color: yellow;
+  font-family: "Sofia", sans-serif;
+  background-color: #e3f0f3;
   height: 100%;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Layout #2 start */
@@ -15,6 +30,34 @@ body {
   position: fixed;
   top: 0px;
   width: 100%;
-  background-color: lightgreen;
+  background-color: #A1C4C5;
 }
 /* Layout #3 end */
+
+
+/*CUSTOM CSS START*/
+#welcome-section {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  padding-top: 40%;
+  text-align: center;
+}
+
+#projects {
+  text-align: center;
+}
+
+#navbar {
+  height: 120px;
+  font-family: 'Montserrat', sans-serif;
+  left: 0;
+
+  /*navbar centering*/
+  margin: auto;
+  width: 100%;
+  border-bottom: 3px solid #887f75;
+  padding: 10px;
+
+  text-align: center;
+}
