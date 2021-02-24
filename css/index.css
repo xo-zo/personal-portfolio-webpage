@@ -3,21 +3,18 @@ body {
   height: 100%;
 }
 
-@media only screen and (max-width: 1000px)
-{
-  body {
-    background-color: lightblue;
-  }
-}
-
+/* Layout #2 start */
 #welcome-section {
   height: 100vh;
   overflow: auto;
 }
+/* Layout #2 end */
 
+/* Layout #3 start */
 #navbar {
   position: fixed;
   top: 0px;
   width: 100%;
   background-color: lightgreen;
 }
+/* Layout #3 end */
